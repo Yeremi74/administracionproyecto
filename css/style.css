@@ -37,6 +37,14 @@
     'Liberation Mono', 'Courier New', monospace;
 }
 
+.text-blue{
+  color: var(--blue) !important;
+
+}
+.bg-blue{
+  background-color: var(--blue) !important;
+}
+
 *,
 *::before,
 *::after {
@@ -2540,16 +2548,16 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #669928;
-  border-color: #5f8f25;
+  background-color: var(--blue);
+  border-color: var(--blue);
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #669928;
-  border-color: #5f8f25;
-  box-shadow: 0 0 0 0.2rem rgba(142, 194, 79, 0.5);
+  background-color: var(--blue);
+  border-color:var(--blue);
+  box-shadow: 0 0 0 0.2rem rgba(20, 20, 195, 0.571);
 }
 
 .btn-primary.disabled,
@@ -2563,8 +2571,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #5f8f25;
-  border-color: #588423;
+  background-color: #2c258f;
+  border-color: #2c258f;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
